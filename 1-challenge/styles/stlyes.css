@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  background-color: grey;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to bottom, #14121D, #221524, #16131C);
+  color: white;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 30px;
+  width: 70%;
+  height: 100%;
+  gap: 20px;
+}
+
+.card {
+  border-radius: 14px;
+  display: grid;
+  grid-template-columns: 0.5fr 2.3fr;
+  grid-template-rows: 30% 1fr;
+  border: 2px solid black;
+  padding: 5px;
+  width: 100%;
+  padding-right: 10px;
+}
+.card__icon {
+  display: grid;
+  grid-column: 1/2;
+  justify-content: center;
+  align-content: center;
+  width: 30px;
+  height: 30px;
+  margin: 20px;
+  background-color: transparent;
+  background-color: green;
+  border-radius: 50%;
+}
+.card__title {
+  display: grid;
+  align-content: center;
+  font-size: 15px;
+  letter-spacing: 1px;
+}
+.card__text {
+  display: grid;
+  grid-column: 2/2;
+  font-size: 15px;
+  line-height: 20px;
+  color: gray;
+}
+
+.salary {
+  background-color: #15191E;
+  border: none;
+}
+.salary .dollar-icon {
+  background-color: #1d242c;
+  color: green;
+}
+
+.pto {
+  background-color: #161422;
+  border: none;
+}
+.pto .suitcase-icon {
+  background-color: #242038;
+  color: #47408f;
+}
+
+.work {
+  background-color: #171726;
+  border: none;
+}
+.work .location-icon {
+  background-color: #1B2135;
+  color: #476891;
+}
+
+.stock {
+  background-color: #251E23;
+  border: none;
+}
+.stock .coin-icon {
+  background-color: #38322E;
+  color: #C6AB5D;
+}
+
+.first-class {
+  background-color: #1F1426;
+  border: none;
+}
+.first-class .computer-icon {
+  background-color: #32182D;
+  color: #883A6C;
+}
+
+.growth {
+  background-color: #21182A;
+  border: none;
+}
+.growth .arrow-icon {
+  background-color: #2C243D;
+  color: #484375;
+}
+
+.biannual {
+  background-color: #171A28;
+  border: none;
+}
+.biannual .world-icon {
+  background-color: #202B3B;
+  color: #5EA6CC;
+}
+
+.dental-medical {
+  background-color: #2B1A26;
+  border: none;
+}
+.dental-medical .dental-icon {
+  background-color: #3C242E;
+  color: #9A6B65;
+}
+
+/*# sourceMappingURL=stlyes.css.map */
