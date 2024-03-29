@@ -1,0 +1,190 @@
+* {
+margin: 0;
+background-color:black;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    padding-top: 1em;    
+    padding: 2em;
+    }    
+
+    .inner-card {
+        display: grid;
+        grid-template-columns: .20fr 2fr;
+        grid-template-rows: .5fr 1fr;
+        grid-column-gap: 10px;
+        grid-row-gap: 10px;
+        padding-top: 1em;
+        padding-left: 1em;
+        background-color: transparent;
+        }
+
+        .icon {
+            background-color: transparent;
+            margin-left: 25%;
+            margin-top: 25%;                      
+
+            .fa-solid {
+                background-color: transparent;
+            }
+        }
+          
+    .inner-card__icon  {
+    grid-area: 1 / 1 / 3 / 2;
+    border-radius: 50%;
+    height: 2em;
+    width: 2em; 
+    }
+
+    .inner-card__title { 
+    grid-area: 1 / 2 / 2 / 3;
+    color: hsl(38, 15%, 78%);
+    background-color: transparent;
+    font-size: 1.5em;
+    font-weight: 600;
+    }
+
+    .inner-card__description { 
+    grid-area: 2 / 2 / 3 / 3;     
+    background-color: transparent;
+    font-size: 1em;
+    padding-bottom: 1em;
+    padding-right: 1em;        
+    }
+
+    .description-text {
+        color: hsl(232, 9%, 35%);
+        font-weight: 600;
+    }
+
+    .card {
+        border-radius: 10px;
+        max-width: 400px;
+        max-height: 150px;
+        min-height: none;
+        min-width: none;
+        padding-bottom: 20px;
+       }
+    
+    .card.one {    
+        grid-area: 1 / 1 / 2 / 2; 
+        background-color: hsl(216, 19%, 10%) ;         
+    }
+
+    .dollar {
+        color: hsl(124, 28%, 39%);
+        background-color: transparent;
+    }
+    
+    .dollarbg {
+        background-color: hsl(180, 15%, 13%);
+        padding-left: 5px;
+    }
+
+    .suitcase {
+        color: hsl(247, 39%, 41%);
+        background-color: transparent;
+    }
+
+    .suitcasebg {
+        background-color: hsl(243, 32%, 14%);
+    }
+
+    .location {
+        color: hsl(214, 36%, 37%);      
+    }
+
+    .locationbg {
+        background-color:hsl(222, 33%, 16%);
+        padding-left: 3px;
+    }
+    
+    .gold {
+        color:hsl(46, 52%, 50%);
+    }
+
+    .goldbg {
+        background-color: hsl(50, 13%, 18%);
+    }
+
+    .fa-display {
+        color: hsl(323, 47%, 40%);
+    }
+
+    .displaybg {
+        background-color: hsl(307, 34%, 14%);
+        padding-right: 2px;
+    }
+
+    .fa-arrow-trend-up {
+        color: hsl(244, 33%, 63%);
+    }
+    
+    .trend-upbg {
+        padding-right: 3px;
+        background-color:hsl(257, 25%, 19%);
+    }
+
+    .fa-globe {
+        color:hsl(198, 63%, 62%);
+    }
+    
+    .globebg {
+        background-color: hsl(218, 32%, 18%);
+    }
+
+    .temp {
+        color: hsl(6, 28%, 58%);
+        padding-left: 3px;
+    }
+
+    .tempbg {
+        background-color: hsl(336, 26%, 19%);
+    }
+    
+    .card.two { 
+        grid-area: 1 / 2 / 2 / 3; 
+        background-color: hsl(260, 28%, 10%);
+    }
+
+    .card.three { 
+        grid-area: 2 / 1 / 3 / 2; 
+        background-color: hsl(240, 23%, 12%);
+    }
+
+    .card.four { 
+        grid-area: 2 / 2 / 3 / 3;
+        background-color: hsl(336, 7%, 13%);
+     }
+
+    .card.five { 
+        grid-area: 3 / 1 / 4 / 2;
+        background-color: hsl(284, 26%, 11%);
+    }
+
+    .card.six { 
+        grid-area: 3 / 2 / 4 / 3;
+        background-color: hsl(284, 26%, 11%);
+     }
+
+    .card.seven { 
+        grid-area: 4 / 1 / 5 / 2; 
+        background-color: hsl(232, 24%, 12%);
+    }
+
+    .card.eight { 
+        grid-area: 4 / 2 / 5 / 3; 
+        background-color: hsl(317, 26%, 14%);
+    }
