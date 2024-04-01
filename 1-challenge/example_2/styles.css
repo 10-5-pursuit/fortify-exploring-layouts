@@ -1,0 +1,443 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --salmon: #F5A091;
+    --lightblue: #A8DAF4;
+    --lightgreen: #B2DECA;
+    --lightyellow: #FBFDD2;
+    --lightpurple: #ABAEDB;
+}
+
+html {
+    font-family: 'DM Sans', Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.2rem;
+    font-weight: 400;
+}
+
+h1 {
+    font-size: 13rem;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 1.3rem;
+}
+
+h3 {
+    font-size: 1.7rem;
+    line-height: 2.2rem;
+}
+
+h4 {
+    font-family: 'DM Sans', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 3.5rem;
+    line-height: 4rem;
+}
+
+h5 {
+    font-size: 1.7rem;
+    line-height: 2.2rem;
+}
+
+a {
+    font-family: 'DM Sans', Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+    color: black;
+    transition: all 0.3s ease;
+}
+
+.button {
+    display: flex;
+    padding: 1.1rem 2.5rem 1.1rem 3.5rem;
+    border-radius: 99rem;
+    align-self: baseline;
+    background-color: var(--salmon);
+    transition: all 0.5s ease;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+}
+
+.section {
+    display: flex;
+    justify-content: center;
+    padding: 8rem 2.5rem 8rem 2.5rem;
+}
+
+.section .innercontainer {
+    display: flex;
+    justify-content: center;
+    gap: 10rem;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    z-index: 2;
+    border-radius: 2rem 2rem 0rem 0rem;
+    margin-top: -2rem;
+}
+
+.footerwrapper {
+    display: flex;
+    flex-direction: column;
+    padding: 8rem 0rem 3rem 0rem;
+}
+
+.mainfooter .innercontainer {
+    display: flex;
+    gap: 1.5rem;
+    flex-direction: row;
+    padding: 0;
+    align-items: stretch;
+}
+
+.footercontainer .leftcontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 70%;
+    gap: 1.5rem;
+}
+
+.footerwidgets {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    gap: 1.5rem;
+}
+
+.footerwidgets .worktogether {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 60%;
+    background-color: var(--lightblue);
+    border-radius: 2rem;
+    padding: 3rem;
+    gap: 2rem;
+    transition: all 0.5s ease;
+}
+
+.worktogether p {
+    width: 80%;
+}
+
+.worktogether .item {
+    width: 3.5rem;
+    height: 3.5rem;
+    display: flex;
+    background-image: url('https://method.au/Assets/star.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.worktogether .ourteam {
+    background-color: black;
+    color: var(--lightblue);
+}
+
+.worktogether .innerbuttoncircle {
+    background-color: var(--lightblue);
+}
+
+.footerwidgets .googlereviews {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 40%;
+    background-color: var(--lightpurple);
+    border-radius: 2rem;
+    padding: 3rem;
+    gap: 2rem;
+}
+
+.googlereviews .googlewrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.googlewrapper .googlelogo {
+    width: 3.5rem;
+    height: 3.5rem;
+    display: flex;
+    background-image: url('https://method.au/Assets/Googlelogo.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.googlewrapper .googlestars {
+    height: 1.5rem;
+    width: 7rem;
+    display: flex;
+    background-image: url('https://method.au/Assets/5stars.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+
+.namewrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.namewrapper .straightcirclebutton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    height: 4rem;
+    width: 4rem;
+    border-radius: 99rem;
+    align-self: flex-end;
+
+}
+
+.straightcirclebutton:hover .straightarrow {
+    width: 2rem;
+}
+
+.straightcirclebutton .straightarrow {
+    height: 2rem;
+    width: 2.5rem;
+    background-image: url('https://method.au/Assets/straightarrow.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.footerarticles {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    gap: 1.5rem;
+}
+
+.footercontainer .rightcontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    width: 30%;
+    background-color: var(--lightgreen);
+
+
+    border-radius: 2rem;
+    min-height: 100%;
+    padding: 3rem;
+    background-image: url('https://method.au/Assets/marketingbg.svg');
+    background-size: 85%;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
+.rightcontainer .button {
+    margin-top: 1rem;
+}
+
+.rightcontainer .item {
+    width: 5.5rem;
+    height: 3.5rem;
+    display: flex;
+    background-image: url('https://method.au/Assets/methodicon.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.footerarticles .SEOarticle {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 50%;
+    background-color: var(--lightyellow);
+    border-radius: 2rem;
+    padding: 3rem;
+    gap: 2rem;
+}
+
+.footerarticles .datecontainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footerarticles a:after {
+    display: block;
+    content: '';
+    margin-top: 0.2rem;
+    border-bottom: solid 2px black;
+}
+
+.footerarticles .articlecontentcontainer {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.footerarticles .localwebdesign {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 50%;
+    background-color: var(--salmon);
+    border-radius: 2rem;
+    gap: 2rem;
+    padding: 3rem;
+}
+
+.footerarticles .titlecontainer {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+}
+
+.paddingwrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.mainfooter {
+    padding: 0rem 2rem;
+    position: relative;
+    z-index: 2;
+}
+
+.gap2rem {
+    gap: 2rem;
+}
+
+.remgap {
+    gap: 1rem;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.flex {
+    display: flex;
+}
+
+.worktogether p {
+    width: 100%;
+}
+
+.baseline {
+    align-items: baseline !important;
+}
+
+.bg-blue {
+    background-color: var(--lightblue) !important;
+}
+
+.bg-green {
+    background-color: var(--lightgreen);
+}
+
+.bg-black {
+    background-color: black !important;
+}
+
+.bg-white {
+    background-color: white !important;
+}
+
+.bg-purple {
+    background-color: var(--lightpurple);
+}
+
+.salmon-text {
+    color: var(--salmon);
+}
+
+.white-text {
+    color: white;
+}
+
+.invert {
+    filter: invert(1);
+}
+
+main {
+    transition: all 0.5s ease;
+}
+
+.invert {
+    filter: invert(1);
+}
+
+.blue-text {
+    color: var(--lightblue);
+}
+
+.purple-text {
+    color: var(--lightpurple);
+}
+
+.green-text {
+    color: var(--lightgreen);
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) {
+
+    section .innercontainer {
+        max-width: 768px;
+        width: 100%;
+    }
+
+    .footerwrapper {
+        padding: 8rem 0rem 3rem 0rem;
+        max-width: 768px;
+        width: 100%;
+    }
+
+    h4 {
+        font-size: 2rem;
+        line-height: 2.8rem;
+    }
+
+    .mainfooter .innercontainer {
+        flex-direction: column;
+    }
+
+    .footercontainer .leftcontainer {
+        width: 100%;
+    }
+
+    .footercontainer .rightcontainer {
+        width: 100%;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center right;
+    }
+
+    .footercontainer .rightcontainer p {
+        width: 35%;
+    }
+
+    .footerarticles .datecontainer {
+        flex-direction: column-reverse;
+        gap: 1rem;
+    }
+}
