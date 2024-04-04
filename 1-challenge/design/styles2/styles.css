@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 2fr;
+  margin: 10px;
+  padding: 10px;
+  background-color: black;
+}
+
+.left-side {
+  display: grid;
+  grid-template-columns: 1fr 0.8fr;
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+}
+
+.blue-card {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(4, auto);
+  border-radius: 20px;
+  padding: 30px;
+  background-color: #A8DAF5;
+}
+.blue-card .snow {
+  font-size: 30px;
+}
+.blue-card__header {
+  font-size: 40px;
+  letter-spacing: 2px;
+  font-family: Noto Sans, sans-serif;
+  font-weight: lighter;
+}
+.blue-card__text {
+  font-weight: lighter;
+  font-size: 15px;
+}
+.blue-card__button {
+  width: 130px;
+  height: 50px;
+  font-size: 10px;
+  border-radius: 30px;
+  border: none;
+  background-color: black;
+  color: #A8DAF5;
+  margin-top: 20px;
+}
+
+.purple-card {
+  background-color: #ACAEDB;
+  display: grid;
+  grid-template-rows: repeat(4, auto);
+  border-radius: 20px;
+  padding: 30px;
+  height: 400px;
+}
+.purple-card .gsign {
+  font-size: 40px;
+}
+.purple-card__stars {
+  display: grid;
+  justify-content: end;
+}
+.purple-card__text {
+  font-size: 15px;
+}
+.purple-card__author {
+  font-weight: bold;
+  font-size: 15px;
+}
+.purple-card .arrow {
+  width: 60px;
+  height: 60px;
+  border-radius: 40px;
+  background-color: black;
+  color: #ACAEDB;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  margin-left: 280px;
+}
+
+.yellow-card {
+  display: grid;
+  grid-template-rows: repeat(4 auto);
+  padding: 30px;
+  background-color: #FCFFD1;
+  border-radius: 20px;
+  width: 420px;
+  height: 350px;
+}
+.yellow-card__header {
+  font-size: 25px;
+}
+.yellow-card__text {
+  font-size: 15px;
+  font-weight: lighter;
+  margin-top: 25px;
+}
+.yellow-card__date {
+  margin-left: 250px;
+}
+
+.orange-card {
+  display: grid;
+  grid-template-rows: repeat(4, auto);
+  background-color: #F5A191;
+  border-radius: 20px;
+  padding: 30px;
+  width: 420px;
+  height: 350px;
+}
+.orange-card__header {
+  font-size: 25px;
+}
+.orange-card__text {
+  font-size: 15px;
+  font-weight: lighter;
+}
+.orange-card__date {
+  margin-left: 250px;
+}
+
+/*# sourceMappingURL=styles.css.map */
